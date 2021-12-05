@@ -2,7 +2,7 @@ use std::fs;
 use regex::Regex;
 
 fn main() {
-	let contents = fs::read_to_string("./src/inputs/input-02.txt").unwrap();
+	let contents = fs::read_to_string("./inputs/input-02.txt").unwrap();
 	
 	let re = Regex::new(r"(?m)^(forward|up|down) (\d+)$").unwrap();
 	

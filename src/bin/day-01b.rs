@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-	let contents = fs::read_to_string("./src/inputs/input-01.txt").unwrap();
+	let contents = fs::read_to_string("./inputs/input-01.txt").unwrap();
 				
 	let mut inc = 0;
 	let mut prev = -1;
